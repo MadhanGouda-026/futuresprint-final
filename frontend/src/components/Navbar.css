@@ -1,0 +1,26 @@
+.navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:all 0.3s}
+.navbar.scrolled{background:rgba(10,14,26,0.97);backdrop-filter:blur(20px);border-bottom:1px solid rgba(59,130,246,0.15);box-shadow:0 4px 30px rgba(37,99,235,0.15);padding:10px 0}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px}
+.nav-logo{background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:10px}
+.logo-img{width:44px;height:44px;object-fit:contain;filter:drop-shadow(0 0 8px rgba(37,99,235,0.6))}
+.logo-text-wrap{display:flex;flex-direction:column;text-align:left}
+.logo-name{font-family:'Outfit',sans-serif;font-size:18px;font-weight:800;line-height:1.1}
+.logo-f{color:#93c5fd}
+.logo-s{color:var(--blue3)}
+.logo-tag{font-size:9px;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase}
+.nav-links{display:flex;gap:4px;flex:1;justify-content:center}
+.nav-link{background:none;border:none;padding:8px 14px;border-radius:50px;font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);cursor:pointer;transition:all 0.2s}
+.nav-link:hover{color:#fff;background:rgba(59,130,246,0.15)}
+.nav-link.active{color:var(--blue3);background:rgba(59,130,246,0.15)}
+.nav-actions{display:flex;align-items:center;gap:8px}
+.nav-user-btn{background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:8px;color:#fff;font-size:14px;font-weight:500;padding:6px 12px;border-radius:50px;transition:background 0.2s}
+.nav-user-btn:hover{background:rgba(59,130,246,0.15)}
+.nav-avatar{width:30px;height:30px;background:var(--grad-btn);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff}
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+.hamburger span{display:block;width:22px;height:2px;background:var(--blue3);border-radius:2px}
+@media(max-width:768px){
+  .nav-links{display:none;position:fixed;top:70px;left:0;right:0;background:rgba(10,14,26,0.98);backdrop-filter:blur(20px);flex-direction:column;padding:20px;border-bottom:1px solid var(--border)}
+  .nav-links.open{display:flex}
+  .hamburger{display:flex}
+  .nav-actions .btn{display:none}
+}
