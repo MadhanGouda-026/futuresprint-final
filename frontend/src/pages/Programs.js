@@ -18,11 +18,11 @@ export default function Programs() {
     <div className="programs-page">
       <div className="prog-hero">
         <h1>Internship <span className="grad-text">Programs</span></h1>
-        <p>7 in-demand tech domains · 100% Free · Certificate @ ₹99</p>
+        <p>7 in-demand tech domains · 100% Free · For management fee @ ₹49</p>
         <div className="prog-badges">
           <span className="badge badge-cyan">✅ Free Internship</span>
           <span className="badge badge-green">🌐 100% Remote</span>
-          <span className="badge badge-blue">🏆 Certificate @ ₹99</span>
+          <span className="badge badge-blue">🏆 Certificate</span>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ export default function Programs() {
                 </div>
                 <div className="prog-meta-list">
                   <div className="pml-item"><span>💰</span><span style={{color:"#6ee7b7",fontWeight:600}}>Free Internship</span></div>
-                  <div className="pml-item"><span>🏆</span><span style={{color:"#fbbf24",fontWeight:600}}>Certificate @ ₹99</span></div>
+                  <div className="pml-item"><span>🏆</span><span style={{color:"#fbbf24",fontWeight:600}}>Certificate </span></div>
                   <div className="pml-item"><span>🌐</span><span style={{color:"#93c5fd",fontWeight:600}}>100% Remote</span></div>
                 </div>
                 <button className="prog-apply-btn" style={{background:p.color,boxShadow:`0 4px 18px ${p.color}55`}}
@@ -57,7 +57,7 @@ export default function Programs() {
         <div className="cert-box glass-card">
           <div className="cert-box-icon">🏆</div>
           <div>
-            <h3>Verified Certificate for just <span style={{color:"#fbbf24"}}>₹99</span></h3>
+            <h3>Verified Certificate <span style={{color:"#fbbf24"}}></span></h3>
             <p>After completing your internship, get a professionally designed, QR-verified certificate with a unique Certificate ID. Employers can verify it online instantly.</p>
             <div style={{display:"flex",gap:10,marginTop:14,flexWrap:"wrap"}}>
               <span className="badge badge-cyan">🔍 QR Verified</span>
