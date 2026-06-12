@@ -12,7 +12,7 @@ export default function About({ setPage }) {
           <div>
             <h2 className="grad-text2" style={{fontSize:28,fontWeight:800,marginBottom:16}}>Our Mission</h2>
             <p style={{color:"rgba(255,255,255,0.7)",lineHeight:1.8,fontSize:15,marginBottom:16}}>FutureSprint bridges the gap between college education and industry requirements. We provide free, high-quality internships to students across India.</p>
-            <p style={{color:"rgba(255,255,255,0.7)",lineHeight:1.8,fontSize:15}}>Our internships are <strong style={{color:"#6ee7b7"}}>completely free</strong> — you only pay <strong style={{color:"#fbbf24"}}>₹99</strong> for your verified certificate after successful completion.</p>
+            <p style={{color:"rgba(255,255,255,0.7)",lineHeight:1.8,fontSize:15}}>Our internships are <strong style={{color:"#6ee7b7"}}>completely free</strong> — you only pay <strong style={{color:"#fbbf24"}}>₹49</strong> for Management fee and get verified certificate after successful completion.</p>
           </div>
           <div className="glass-card" style={{padding:28,display:"flex",flexDirection:"column",gap:20}}>
             {[["🎯","Our Goal","Make quality internships accessible to every student in India"],["💡","Our Approach","Real projects, expert guidance, verified certificates"],["🌍","Our Reach","Students from 500+ colleges across India"]].map(([ic,t,d])=>(
@@ -34,8 +34,8 @@ export default function About({ setPage }) {
         </div>
         <div className="glass-card" style={{padding:40,display:"grid",gridTemplateColumns:"1fr 1fr",gap:40,alignItems:"center"}}>
           <div>
-            <h2 className="grad-text2" style={{fontSize:26,fontWeight:800,marginBottom:12}}>Certificate at ₹99</h2>
-            <p style={{color:"var(--gray)",fontSize:14,lineHeight:1.7,marginBottom:16}}>After completing your internship, get a professionally designed, QR-verified certificate for just ₹99.</p>
+            <h2 className="grad-text2" style={{fontSize:26,fontWeight:800,marginBottom:12}}>Certificate Detail</h2>
+            <p style={{color:"var(--gray)",fontSize:14,lineHeight:1.7,marginBottom:16}}>After completing your internship, get a professionally designed, QR-verified certificate.</p>
             <ul style={{listStyle:"none",display:"flex",flexDirection:"column",gap:8}}>
               {["Unique Certificate ID","QR Code for instant verification","Employer-friendly format","Verifiable online","Digital + printable"].map(f=>(
                 <li key={f} style={{fontSize:14,color:"rgba(255,255,255,0.8)",display:"flex",gap:8}}><span style={{color:"#6ee7b7"}}>✓</span>{f}</li>
@@ -43,7 +43,7 @@ export default function About({ setPage }) {
             </ul>
             <button className="btn btn-primary" style={{marginTop:20}} onClick={()=>setPage("verify")}>Verify a Certificate →</button>
           </div>
-          <div className="glass-card" style={{padding:32,textAlign:"center",border:"1px solid rgba(59,130,246,0.3)"}}>
+          <div className="glass-card" style={{padding:32,textAlign:"center",border:"1px solid hsla(215, 40%, 9%, 0.83)"}}>
             <img src="/logo.png" alt="FS" style={{width:56,height:56,objectFit:"contain",marginBottom:12}}/>
             <div style={{fontSize:10,letterSpacing:"0.15em",color:"var(--gray)",textTransform:"uppercase",marginBottom:14}}>Certificate of Completion</div>
             <div style={{fontSize:20,fontFamily:"'Outfit',sans-serif",fontWeight:800,marginBottom:4}}>Priya Sharma</div>
