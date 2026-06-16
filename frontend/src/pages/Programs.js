@@ -18,7 +18,7 @@ export default function Programs() {
     <div className="programs-page">
       <div className="prog-hero">
         <h1>Internship <span className="grad-text">Programs</span></h1>
-        <p>7 in-demand tech domains · 100% Free · For management fee @ ₹49</p>
+        <p>7 in-demand tech domains · 100% Free · No management fee</p>
         <div className="prog-badges">
           <span className="badge badge-cyan">✅ Free Internship</span>
           <span className="badge badge-green">🌐 100% Remote</span>
