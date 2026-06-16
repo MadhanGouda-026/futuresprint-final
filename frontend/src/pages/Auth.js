@@ -40,7 +40,7 @@ export function Login({ setPage }) {
         <h2 style={{fontSize:26,fontWeight:800,marginBottom:4}}>Welcome Back!</h2>
         <p style={{color:"var(--gray)",fontSize:14,marginBottom:20}}>Login to your account</p>
         <div style={{background:"rgba(37,99,235,0.12)",border:"1px solid rgba(59,130,246,0.25)",borderRadius:10,padding:"12px 16px",fontSize:12,color:"#93c5fd",marginBottom:20,lineHeight:1.8}}>
-          <b>Demo Accounts:</b><br/>👑 Admin: admin@futuresprint.com / admin123<br/>🎓 Student: student@futuresprint.com / student123
+         
         </div>
         <div className="form-group"><label>Email</label><input className="input" type="email" placeholder="you@example.com" value={form.email} onChange={e=>setForm(f=>({...f,email:e.target.value}))}/></div>
         <div className="form-group"><label>Password</label><input className="input" type="password" placeholder="••••••••" value={form.password} onChange={e=>setForm(f=>({...f,password:e.target.value}))} onKeyDown={e=>e.key==="Enter"&&submit()}/></div>
