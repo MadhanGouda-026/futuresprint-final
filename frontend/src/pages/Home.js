@@ -126,7 +126,7 @@ export default function Home({ setPage }) {
         <div className="grid-3">
           {[
             {icon:"💸",title:"100% Free",desc:"No fees. Apply, learn and grow completely free.",c:"#10b981"},
-            {icon:"🏆",title:"No Management Fee,desc:"No any hidden fees after completion.",c:"#f59e0b"},
+            {icon:"🏆",title:"No Management Fee",desc:"No any hidden fees after completion.",c:"#f59e0b"},
             {icon:"🌐",title:"100% Remote",desc:"Work from anywhere in India. No relocation needed.",c:"#3b82f6"},
             {icon:"💼",title:"Real Projects",desc:"Work on actual industry projects, not dummy assignments.",c:"#8b5cf6"},
             {icon:"🔍",title:"Verifiable ID",desc:"Each certificate has a unique ID that employers can verify.",c:"#06b6d4"},
