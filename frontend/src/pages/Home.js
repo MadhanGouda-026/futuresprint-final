@@ -43,7 +43,7 @@ export default function Home({ setPage }) {
           </div>
           <div className="hero-cert-note">🏆 Verified Certificate available<strong style={{color:"#fbbf24"}}></strong> after completion</div>
           <div className="hero-stats">
-            {[["7","Programs"],["₹49","Management fee"],["100%","Remote"]].map(([v,l]) => (
+            {[["7","Programs"],["₹0","Management fee"],["100%","Remote"]].map(([v,l]) => (
               <div key={l} className="hstat"><div className="hstat-val grad-text">{v}</div><div className="hstat-label">{l}</div></div>
             ))}
           </div>
