@@ -31,12 +31,12 @@ export default function Home({ setPage }) {
       <section className="hero">
         <div className="hero-glow" />
         <div className="hero-content">
-          <div className="hero-badge">🎓 Free Internship · For management fee @ ₹49</div>
+          <div className="hero-badge">🎓 Free Internship · No any hidden fees</div>
           <h1 className="hero-title">
             <span className="grad-text2">Sprint Towards</span><br/>
             <span className="grad-text">Your Future</span>
           </h1>
-          <p className="hero-sub">Join now and gaining real-world experience through free internships. Get a verified certificate and For management fee ₹49 and launch your career.</p>
+          <p className="hero-sub">Join now and gaining real-world experience through free internships. Get a verified certificate and launch your career.</p>
           <div className="hero-btns">
             <button className="btn btn-primary btn-lg glow-btn" onClick={openForm}>Apply Now — Free! 🚀</button>
             <button className="btn btn-outline btn-lg" onClick={() => setPage("programs")}>View Programs →</button>
@@ -69,7 +69,7 @@ export default function Home({ setPage }) {
       <section className="section">
         <div style={{textAlign:"center",marginBottom:48}}>
           <h2 className="section-title grad-text2">7 Internship Programs</h2>
-          <p style={{color:"var(--gray)",marginTop:8}}>Free internship · 100% Remote · For management fee @ ₹49</p>
+          <p style={{color:"var(--gray)",marginTop:8}}>Free internship · 100% Remote · No Fee</p>
         </div>
         <div className="domains-grid">
           {DOMAINS.map(d => (
@@ -83,7 +83,7 @@ export default function Home({ setPage }) {
                 <div style={{display:"flex",gap:6,marginBottom:14,flexWrap:"wrap"}}>
                   <span className="badge badge-cyan">Free</span>
                   <span className="badge badge-green">Remote</span>
-                  <span className="badge badge-blue">For management fee ₹49</span>
+                  <span className="badge badge-blue">Completely Free</span>
                 </div>
                 <button className="dc-btn" style={{background:d.color,boxShadow:`0 4px 16px ${d.color}55`}} onClick={openForm}>Apply Now →</button>
               </div>
@@ -126,7 +126,7 @@ export default function Home({ setPage }) {
         <div className="grid-3">
           {[
             {icon:"💸",title:"100% Free",desc:"No fees. Apply, learn and grow completely free.",c:"#10b981"},
-            {icon:"🏆",title:"Management fee @ ₹49",desc:"For management fee ₹49 after completion.",c:"#f59e0b"},
+            {icon:"🏆",title:"No Management Fee,desc:"No any hidden fees after completion.",c:"#f59e0b"},
             {icon:"🌐",title:"100% Remote",desc:"Work from anywhere in India. No relocation needed.",c:"#3b82f6"},
             {icon:"💼",title:"Real Projects",desc:"Work on actual industry projects, not dummy assignments.",c:"#8b5cf6"},
             {icon:"🔍",title:"Verifiable ID",desc:"Each certificate has a unique ID that employers can verify.",c:"#06b6d4"},
@@ -145,7 +145,7 @@ export default function Home({ setPage }) {
       <section className="cta-section">
         <div className="cta-glow" />
         <h2 className="grad-text2">Ready to Sprint Into Your Future?</h2>
-        <p>Free internship · For management fee @ ₹49 · 7 Domains · 100% Remote</p>
+        <p>Free internship · 7 Domains · 100% Remote</p>
         <button className="btn btn-primary btn-lg glow-btn" onClick={openForm}>Apply Now — It's FREE! 🚀</button>
         <p style={{marginTop:14,fontSize:13,color:"#fbbf24"}}>Certificate available after completion</p>
       </section>
